@@ -15,6 +15,7 @@ cat <<EOF > "/tmp/pjsip/pjlib/include/pj/config_site.h"
 #define PJMEDIA_AUDIO_DEV_HAS_ANDROID_JNI 0
 #define PJMEDIA_AUDIO_DEV_HAS_OPENSL 1
 #define PJSIP_AUTH_AUTO_SEND_NEXT 0
+#define PJSUA_SDP_SESS_HAS_CONN 1
 EOF
 
 cd /tmp/pjsip
